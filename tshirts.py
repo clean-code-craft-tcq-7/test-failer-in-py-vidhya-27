@@ -11,6 +11,6 @@ def size(cms):
 assert(size(37) == 'S')
 assert(size(38) == 'M')
 assert(size(40) == 'M')
-assert(size(42) == 'LK')
+assert(size(42) == 'L')
 assert(size(43) == 'L')
 print("All is well (maybe!)")
