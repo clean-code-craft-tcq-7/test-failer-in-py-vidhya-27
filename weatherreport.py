@@ -25,7 +25,8 @@ def testRainy():
     weather = report(sensorStub)
     print(weather)
     assert("rain" in weather)
-
+#issues
+#test is incomplete, only rain in the return statement is tested and not the condition
 
 def testHighPrecipitation():
     # This instance of stub needs to be different-
@@ -36,7 +37,8 @@ def testHighPrecipitation():
     # strengthen the assert to expose the bug
     # (function returns Sunny day, it should predict rain)
     assert(len(weather) > 0);
-
+#issues
+#test is incorrect, it doesnt check the actual precipitation
 
 if __name__ == '__main__':
     testRainy()
